@@ -7,12 +7,11 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 # DNS Server Configuration
 <b>Addition of the following to named.conf and named.conf.prerebuilddnsconfig<b>
 
-
-zone "." {
-type master;
-file "/etc/bind/domain.parking";
-};
-
+<br>
+zone "." {<br>
+type master;<br>
+file "/etc/bind/domain.parking";<br>
+};<br>
 
 # Zone Configuration
 <b>Zone configured with the following -</b><br>
