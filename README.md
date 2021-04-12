@@ -7,15 +7,15 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 # DNS Server Configuration
 <b>Addition of the following to named.conf and named.conf.prerebuilddnsconfig<b>
 
-<code>
-zone "." {<br>
-type master;<br>
-file "/etc/bind/domain.parking";<br>
-};
-</code>
+
+<code>zone "." {</code>
+<code>type master;</code>
+<code>file "/etc/bind/domain.parking";</code>
+<code>};</code>
+
 
 # Zone Configuration
-<b>Zone configured with the following -</b>
+<b>Zone configured with the following -</b><br>
 <i>File:</i> /usr/named/domain.parking
 
 <code>
@@ -25,8 +25,8 @@ file "/etc/bind/domain.parking";<br>
 7200 ; retry, seconds<br>
 1209600 ; expire, seconds<br>
 300 ) ; minimum, seconds<br>
-
-; Name Servers
+<br>
+; Name Servers<br>
 300 IN NS ns.hooble.co.<br>
 300 IN NS ns.hooble.co.uk.<br>
 300 IN NS ns.hooble.uk.<br>
