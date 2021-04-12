@@ -12,12 +12,12 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 <br>
 <i>zone "." {<br>
 type master;<br>
-file "/usr/named/domain.parking";<br>
+file "/var/named/domain.parking";<br>
 };</i><br>
 
 # Zone Configuration
 <b>Zone configured with the following -</b><br>
-<i>File:</i> /usr/named/domain.parking
+<i>File:</i> /var/named/domain.parking
 <br><br>
 <i>; Domain Parking Template V1.0<br>
 @ IN SOA ns.yourbrand.co. abuse.yourbrand.co.uk. (<br>
