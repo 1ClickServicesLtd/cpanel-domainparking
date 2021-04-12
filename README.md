@@ -8,9 +8,9 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 <b>Addition of the following to named.conf and named.conf.prerebuilddnsconfig<b>
 
 <code>
-zone "." {
-type master;
-file "/etc/bind/domain.parking";
+zone "." {<br>
+type master;<br>
+file "/etc/bind/domain.parking";<br>
 };
 </code>
 
@@ -19,26 +19,26 @@ file "/etc/bind/domain.parking";
 <i>File:</i> /usr/named/domain.parking
 
 <code>
-; Hooble Domain Parking Template V1.0
-@ IN SOA ns.hooble.co. abuse.hooble.co.uk. (
-86400 ; refresh, seconds
-7200 ; retry, seconds
-1209600 ; expire, seconds
-300 ) ; minimum, seconds
+; Hooble Domain Parking Template V1.0<br>
+@ IN SOA ns.hooble.co. abuse.hooble.co.uk. (<br>
+86400 ; refresh, seconds<br>
+7200 ; retry, seconds<br>
+1209600 ; expire, seconds<br>
+300 ) ; minimum, seconds<br>
 
 ; Name Servers
-300 IN NS ns.hooble.co.
-300 IN NS ns.hooble.co.uk.
-300 IN NS ns.hooble.uk.
-300 IN NS ns.hooble.io.
-300 IN NS ns.hooble.tech.
-
-; Domain Parking
-* 300 IN A 185.103.119.76
+300 IN NS ns.hooble.co.<br>
+300 IN NS ns.hooble.co.uk.<br>
+300 IN NS ns.hooble.uk.<br>
+300 IN NS ns.hooble.io.<br>
+300 IN NS ns.hooble.tech.<br>
+<br>
+; Domain Parking<br>
+* 300 IN A 185.103.119.76<br>
 </code>
-
-# Verification of Legitamite Domain Lookup
+<br>
+# Verification of Legitamite Domain Lookup<br>
 <img src="https://raw.githubusercontent.com/1ClickServicesLtd/cpanel-domainparking/main/Verify.png">
-
-# Confirmation of DNS Response using "Google.com"
+<br>
+# Confirmation of DNS Response using "Google.com"<br>
 <img src="https://raw.githubusercontent.com/1ClickServicesLtd/cpanel-domainparking/main/Lookup.png">
