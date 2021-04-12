@@ -17,25 +17,27 @@ file "/etc/bind/domain.parking";<br>
 <b>Zone configured with the following -</b><br>
 <i>File:</i> /usr/named/domain.parking
 <br>
-; Hooble Domain Parking Template V1.0<br>
-@ IN SOA ns.hooble.co. abuse.hooble.co.uk. (<br>
+; Domain Parking Template V1.0<br>
+@ IN SOA ns.yourbrand.co. abuse.yourbrand.co.uk. (<br>
 86400 ; refresh, seconds<br>
 7200 ; retry, seconds<br>
 1209600 ; expire, seconds<br>
 300 ) ; minimum, seconds<br>
 <br>
 ; Name Servers<br>
-300 IN NS ns.hooble.co.<br>
-300 IN NS ns.hooble.co.uk.<br>
-300 IN NS ns.hooble.uk.<br>
-300 IN NS ns.hooble.io.<br>
-300 IN NS ns.hooble.tech.<br>
+300 IN NS ns.youbrand.co.<br>
+300 IN NS ns.yourbrand.co.uk.<br>
+300 IN NS ns.yourbrand.uk.<br>
+300 IN NS ns.yourband.io.<br>
+300 IN NS ns.yourband.tech.<br>
 <br>
 ; Domain Parking<br>
-* 300 IN A 185.103.119.76<br>
+* 300 IN A 8.8.8.8<br>
+<br>
 <br>
 # Verification of Legitamite Domain Lookup<br>
 <img src="https://raw.githubusercontent.com/1ClickServicesLtd/cpanel-domainparking/main/Verify.png">
+<br>
 <br>
 # Confirmation of DNS Response using "Google.com"<br>
 <img src="https://raw.githubusercontent.com/1ClickServicesLtd/cpanel-domainparking/main/Lookup.png">
