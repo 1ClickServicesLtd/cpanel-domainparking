@@ -8,17 +8,16 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 <b>Addition of the following to named.conf and named.conf.prerebuilddnsconfig<b>
 
 
-<code>zone "." {</code>
-<code>type master;</code>
-<code>file "/etc/bind/domain.parking";</code>
-<code>};</code>
+zone "." {
+type master;
+file "/etc/bind/domain.parking";
+};
 
 
 # Zone Configuration
 <b>Zone configured with the following -</b><br>
 <i>File:</i> /usr/named/domain.parking
-
-<code>
+<br>
 ; Hooble Domain Parking Template V1.0<br>
 @ IN SOA ns.hooble.co. abuse.hooble.co.uk. (<br>
 86400 ; refresh, seconds<br>
@@ -35,7 +34,6 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 <br>
 ; Domain Parking<br>
 * 300 IN A 185.103.119.76<br>
-</code>
 <br>
 # Verification of Legitamite Domain Lookup<br>
 <img src="https://raw.githubusercontent.com/1ClickServicesLtd/cpanel-domainparking/main/Verify.png">
