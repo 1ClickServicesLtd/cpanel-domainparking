@@ -1,6 +1,8 @@
 # cpanel-domainparking
 These two steps will allow you to enable your cPanel DNS Only hosts as a domain parking provider for domain names pointed to your name servers. You can customise the template with your own name servers, time to live, abuse contact and parking IP.
 
+Once your domain names are pointed to a host you can then create a web page that can read the domain name and display this on screen with either adverts or other information as you wish. Remember to ensure the web server serving these pages has no hostname set in Apache. This will only answer over http:// not https://.
+
 Support the request at cPanel at URL -
 https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-name-servers
 
