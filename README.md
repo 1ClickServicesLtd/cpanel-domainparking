@@ -12,7 +12,7 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 <br>
 <i>zone "." {<br>
 type master;<br>
-file "/etc/bind/domain.parking";<br>
+file "/usr/named/domain.parking";<br>
 };</i><br>
 
 # Zone Configuration
