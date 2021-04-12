@@ -8,16 +8,16 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 <b>Addition of the following to named.conf and named.conf.prerebuilddnsconfig<b>
 
 <br>
-zone "." {<br>
+<i>zone "." {<br>
 type master;<br>
 file "/etc/bind/domain.parking";<br>
-};<br>
+};</i><br>
 
 # Zone Configuration
 <b>Zone configured with the following -</b><br>
 <i>File:</i> /usr/named/domain.parking
-<br>
-; Domain Parking Template V1.0<br>
+<br><br>
+<i>; Domain Parking Template V1.0<br>
 @ IN SOA ns.yourbrand.co. abuse.yourbrand.co.uk. (<br>
 86400 ; refresh, seconds<br>
 7200 ; retry, seconds<br>
@@ -32,7 +32,7 @@ file "/etc/bind/domain.parking";<br>
 300 IN NS ns.yourband.tech.<br>
 <br>
 ; Domain Parking<br>
-* 300 IN A 8.8.8.8<br>
+* 300 IN A 8.8.8.8<br></i>
 <br>
 <br>
 # Verification of Legitamite Domain Lookup<br>
