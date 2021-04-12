@@ -1,0 +1,17 @@
+; Domain Parking Template V1.0
+@ IN SOA ns.yourbrand.co. abuse.your.brand. (
+2021032502 ;  Serial
+86400 ; refresh, seconds
+7200 ; retry, seconds
+1209600 ; expire, seconds
+300 ) ; minimum, seconds
+
+; Name Servers
+300 IN NS ns.yourbrand.co.
+300 IN NS ns.yourbrand.co.uk.
+300 IN NS ns.yourbrand.uk.
+300 IN NS ns.yourbrand.io.
+300 IN NS ns.yourbrand.tech.
+
+; Domain Parking
+* 300 IN A 8.8.8.8
