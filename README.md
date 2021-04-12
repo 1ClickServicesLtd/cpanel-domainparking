@@ -21,6 +21,7 @@ file "/usr/named/domain.parking";<br>
 <br><br>
 <i>; Domain Parking Template V1.0<br>
 @ IN SOA ns.yourbrand.co. abuse.yourbrand.co.uk. (<br>
+2021041200 ; Serial<br>
 86400 ; refresh, seconds<br>
 7200 ; retry, seconds<br>
 1209600 ; expire, seconds<br>
