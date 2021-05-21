@@ -11,7 +11,7 @@ https://features.cpanel.net/topic/22062-domain-parking-for-any-domain-set-to-nam
 # DNS Server Configuration
 <b>Addition of the following to named.conf and named.conf.prerebuilddnsconfig<b>
 <br>
-  <b> Files Edited:</b> /etc/named/named.conf /etc/named.conf.prerebuilddnsconfig
+  <b> Files Edited:</b> /etc/named.conf /etc/named.conf.prerebuilddnsconfig
 <br>
 <i>zone "." {<br>
 type master;<br>
